@@ -1,0 +1,146 @@
+html {
+    font-size: 14px;
+    background: #FCF7F4;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+    background: #FCF7F4;
+    font-family
+}
+
+.cartao {
+    border-radius: 12px !important;
+    box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.25);
+}
+
+.cartao-credito {
+    border-radius: 16px !important;
+    box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.25);
+}
+
+.btn-rosa {
+    background: #FF6D6D !important;
+    border: #FF6D6D !important;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.25);
+}
+
+.table-card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 12px !important;
+    box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.25);
+}
+
+.profile-logo {
+    width: 40px;
+    border-radius: 60px;
+}
+
+@font-face {
+    font-family: 'Pretendard-Variable';
+    src: url('../Fonts/PretendardVariable.ttf')format('truetype');
+}
+
+@font-face {
+    font-family: 'Pretendard-ExtraBold';
+    src: url('../Fonts/Pretendard-ExtraBold.otf')format('truetype');
+}
+
+.font-pretendard {
+    font-family: Pretendard-Variable !important;
+}
+
+.container-proprio {
+    max-width: 2200px !important;
+}
+
+.SuperTitle {
+    font-family: Pretendard-ExtraBold !important;
+    color: #013D4D;
+}
+
+.navbar-brand {
+    padding-left: 0px !important;
+    padding-bottom: 8px !important;
+    padding-top: 8px !important;
+}
+
+.navbar-expand-sm .navbar-nav .nav-link {
+    padding-right: 45px !important;
+    padding-left: 45px !important;
+    font-weight: bold !important;
+    color: #013D4D !important;
+}
+
+.font-awesome-color {
+    color: #013D4D !important;
+}
+
+.input-group-append {
+    cursor: pointer;
+}
+
+.bckg-none{
+    background: none;
+}
+
+.padding-pagamento {
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 40px;
+}
+
+.padding-pagamento-btn {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+.pd-10 {
+    padding-bottom: 10px;
+}
+
+.cartao-pg {
+    margin-right: 30px;
+}
+
+.cartao-dados {
+    margin-left: 200px;
+}
+
+.btn-pagar {
+    border-radius: 27px !important;
+    font-size: 1.25rem !important;
+    margin-right: 30px;
+    font-weight: bold;
+}
+
+
+.btn-cancelar {
+    border-radius: 27px !important;
+    font-size: 1.25rem !important;
+    margin-right: 30px;
+    font-weight: bold;
+    background: none !important;
+    color: #013D4D !important;
+    border: #d9d9d9 1px solid !important;
+}

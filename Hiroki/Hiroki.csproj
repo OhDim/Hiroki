@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\Fonts\Pretendard-Black.otf" />
+    <None Include="wwwroot\Fonts\Pretendard-Bold.otf" />
+    <None Include="wwwroot\Fonts\Pretendard-ExtraBold.otf" />
+    <None Include="wwwroot\Fonts\Pretendard-ExtraLight.otf" />
+    <None Include="wwwroot\Fonts\Pretendard-Light.otf" />
+    <None Include="wwwroot\Fonts\Pretendard-Medium.otf" />
+    <None Include="wwwroot\Fonts\Pretendard-Regular.otf" />
+    <None Include="wwwroot\Fonts\Pretendard-SemiBold.otf" />
+    <None Include="wwwroot\Fonts\Pretendard-Thin.otf" />
+  </ItemGroup>
+
+</Project>
